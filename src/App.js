@@ -1,6 +1,6 @@
 // src/App.js
 import React, { useState } from 'react';
-import { ChakraProvider, Box, Container, Text, Link, VStack, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
+import { ChakraProvider, Box, Container, Link, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
 import MovieCard from './components/MovieCard';
 
 const movies = [
