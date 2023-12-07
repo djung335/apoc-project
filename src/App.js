@@ -1,6 +1,6 @@
 // src/App.js
 import React, { useState } from 'react';
-import { ChakraProvider, Box, Container, Link, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
+import { ChakraProvider, Box, Text, Container, Link, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
 import MovieCard from './components/MovieCard';
 
 const movies = [
@@ -98,6 +98,9 @@ function App() {
     <ChakraProvider>
       <Container maxW="container.md" p={4}>
         <Box mb={8}>
+        <Text fontSize="xl" fontWeight="bold">
+            APOC in Film Movie Gallery - Daniel Jung and Jeff Park
+          </Text>
           <Menu>
             <MenuButton as={Link} color="blue.500">
               Movies
